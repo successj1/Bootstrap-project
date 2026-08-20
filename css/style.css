@@ -1,0 +1,29 @@
+body::before{
+    display: block;
+    content:'';
+    height: 72px;
+}
+
+nav.navbar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container img{
+    width: 30%;
+    height: auto;
+}
+
+#instructors img{
+    width: 130px;
+    background-color: rgb(209, 214, 215);
+}
+
+
+/* Breaking point */
+@media(min-width: 768px){
+    .news-input{
+        width: 50%;
+    }
+}
+
